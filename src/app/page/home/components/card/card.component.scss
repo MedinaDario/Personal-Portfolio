@@ -1,0 +1,41 @@
+*{
+  font: normal 0.8rem Montserrat;
+}
+.name-title{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  color: whitesmoke;
+  h1{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 15px;
+  }
+}
+.btn-group{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  button{
+    height: 45px;
+    cursor: pointer;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 10%;
+    font-size: 15px;
+  }
+  .border{
+    border-color: #52057B;
+    color: #52057B;
+    background-color: transparent;
+  }
+  .solid{
+      border-color: #52057B;
+    background-color: #52057B;
+    color: white;
+
+  }
+}

@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  .brand {
+    margin-top: -7px;
+    span {
+      color: aqua;
+    }
+  }
+  .menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    li {
+      list-style: none;
+      .active {
+        color: aqua;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+        // padding: 10px 20px;
+      }
+      a:hover {
+        background-color: aqua;
+        color: #191C32;
+        transition: ease-in .2s;
+      }
+    }
+  }
+}

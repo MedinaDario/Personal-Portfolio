@@ -5,13 +5,15 @@ import { HomeRoutingModule } from './home-routing.module';
 import { CardComponent } from './components/card/card.component';
 import { ViewHomeComponent } from './components/view-home/view-home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { InfoContentComponent } from './components/info-content/info-content.component';
 
 
 @NgModule({
   declarations: [
     CardComponent,
     ViewHomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    InfoContentComponent
   ],
   imports: [
     CommonModule,

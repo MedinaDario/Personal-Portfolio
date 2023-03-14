@@ -6,6 +6,7 @@ import { CardComponent } from './components/card/card.component';
 import { ViewHomeComponent } from './components/view-home/view-home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { InfoContentComponent } from './components/info-content/info-content.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { InfoContentComponent } from './components/info-content/info-content.com
     CardComponent,
     ViewHomeComponent,
     NavbarComponent,
-    InfoContentComponent
+    InfoContentComponent,
+    AboutMeComponent
   ],
   imports: [
     CommonModule,

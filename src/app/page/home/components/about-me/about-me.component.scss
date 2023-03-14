@@ -1,0 +1,43 @@
+.about {
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100vw;
+  align-items: center;
+  img {
+    width: 100%;
+    grid-column: 1/5;
+  }
+  .about-info {
+    grid-column: 5/10;
+    padding: 3em;
+    h2 {
+      font-size: 2em;
+      color: #191c32;
+    }
+    .divider {
+      background-color: aqua;
+      height: 4px;
+      width: 165px;
+      margin-top: 10px;
+      margin-bottom: 2em;
+    }
+    p {
+      margin-bottom: 1em;
+    }
+
+      .download-cv {
+        background-color: aqua;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 15px;
+        margin-top: 10px;
+        cursor: pointer;
+        box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+      }
+      .download-cv:hover {
+        background-color: #fff;
+        box-shadow: none;
+      }
+  }
+}
